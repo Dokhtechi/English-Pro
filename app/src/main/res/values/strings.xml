@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">English Pro</string>
+    <string name="app_subtitle">Personal English &amp; Civil Engineering Coach</string>
+    <string name="cd_mic_button">Speak or record answer</string>
+    <string name="cd_play_audio">Play audio pronunciation</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_settings">Open settings</string>
+    <string name="error_mic_permission">Microphone permission is required for voice practice. You can still type or review offline lessons.</string>
+    <string name="cd_coach_avatar_female">Female English speaking coach portrait</string>
+    <string name="cd_coach_avatar_male">Male English speaking coach portrait</string>
+</resources>

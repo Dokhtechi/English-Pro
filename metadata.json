@@ -1,0 +1,6 @@
+{
+  "name": "English Pro",
+  "description": "Personal English & Civil Engineering Coach with offline-first spaced repetition, speech practice, and Gemini AI speaking coaching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

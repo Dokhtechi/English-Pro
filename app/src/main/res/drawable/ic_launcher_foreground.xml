@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Structural arch & speech capsule silhouette centered in 66dp safe zone -->
+    <!-- Outer speech & engineering arch -->
+    <path
+        android:fillColor="#FFF8FAFC"
+        android:pathData="M54,24 C37.4,24 24,36.8 24,52.5 C24,62.3 29.3,71.0 37.3,76.0 L35.0,84.0 L44.8,79.5 C47.7,80.4 50.8,80.9 54,80.9 C70.6,80.9 84,68.1 84,52.5 C84,36.8 70.6,24 54,24 Z M54,73.5 C41.6,73.5 31.6,64.1 31.6,52.5 C31.6,40.9 41.6,31.5 54,31.5 C66.4,31.5 76.4,40.9 76.4,52.5 C76.4,64.1 66.4,73.5 54,73.5 Z" />
+    <!-- Bridge / blueprint truss horizontal beam & pillars -->
+    <path
+        android:fillColor="#FFF59E0B"
+        android:pathData="M37,56 L71,56 L71,60.5 L37,60.5 Z" />
+    <!-- Microphone / speaking core inside the arch -->
+    <path
+        android:fillColor="#FFF8FAFC"
+        android:pathData="M54,36 C50.7,36 48,38.7 48,42 L48,50 C48,53.3 50.7,56 54,56 C57.3,56 60,53.3 60,50 L60,42 C60,38.7 57.3,36 54,36 Z" />
+    <!-- Twin acoustic / structural bars -->
+    <path
+        android:fillColor="#FFF59E0B"
+        android:pathData="M41.5,43.5 L44.5,43.5 L44.5,52.5 L41.5,52.5 Z M63.5,43.5 L66.5,43.5 L66.5,52.5 L63.5,52.5 Z M52,61 L56,61 L56,68 L52,68 Z" />
+</vector>

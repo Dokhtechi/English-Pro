@@ -1,0 +1,1030 @@
+# PROJECT: ENGLISH PRO – Personal English & Civil Engineering Coach
+
+## 1. ROLE AND PROJECT OBJECTIVE
+
+Act as a senior Android software architect, professional English language-learning specialist, applied linguist, AI conversation designer, speech-processing engineer, and educational UX designer.
+
+Build a complete, production-quality native Android application called **English Pro**.
+
+The application is a personalized English-learning system designed for an adult learner who previously had an Upper-Intermediate (B2) English level and an IELTS Academic/General equivalent score of approximately 6.0, but has not actively practiced English for several years.
+
+The learner has lost some vocabulary recall, speaking fluency, listening confidence, and spontaneous communication ability.
+
+The primary objectives are:
+
+1. Restore and significantly improve spontaneous English speaking ability.
+2. Expand active vocabulary and improve long-term vocabulary retention.
+3. Improve listening comprehension and pronunciation.
+4. Develop natural, fluent everyday conversational English.
+5. Develop professional English for working in an international civil engineering and construction company.
+6. Prepare the learner to participate confidently in technical meetings, construction site discussions, progress meetings, coordination meetings, negotiations, and professional communications.
+7. Make the application highly functional offline, without requiring an internet connection for its essential learning features.
+
+Do not treat this learner as a beginner.
+
+Start with a comprehensive placement assessment and dynamically determine the actual current level. Use CEFR levels A2, B1, B2, C1 and their sublevels where appropriate.
+
+The target is strong B2 moving toward C1, with particular emphasis on speaking and professional communication.
+
+Do not teach basic English unnecessarily unless the assessment identifies a specific weakness.
+
+---
+
+# 2. LEARNING PRIORITIES
+
+Allocate learning effort approximately as follows:
+
+- 40% Speaking and conversation.
+- 25% Vocabulary acquisition and active recall.
+- 15% Listening comprehension.
+- 10% Pronunciation and fluency.
+- 10% Professional writing, grammar and sentence construction.
+
+These percentages are initial defaults and must adapt to the learner's actual performance.
+
+The application must prioritize active language production rather than passive reading and multiple-choice exercises.
+
+Every new vocabulary item should eventually be used in:
+- Speaking exercises.
+- Listening exercises.
+- Sentence construction.
+- Contextual dialogues.
+- Periodic revision.
+
+The system must distinguish between:
+- Passive vocabulary: words the learner understands.
+- Active vocabulary: words the learner can spontaneously use in conversation.
+
+The goal is to convert passive vocabulary into active vocabulary.
+
+# 3. USER PROFILE AND INITIAL ASSESSMENT
+
+Create a detailed initial assessment consisting of:
+
+A. Vocabulary assessment:
+- Recognition of common and advanced words.
+- Contextual word selection.
+- Synonyms and antonyms.
+- Phrasal verbs.
+- Collocations.
+- Idiomatic expressions.
+- Professional and technical vocabulary.
+
+B. Grammar assessment:
+- Tenses.
+- Conditional sentences.
+- Modal verbs.
+- Passive voice.
+- Relative clauses.
+- Prepositions.
+- Complex sentence structures.
+- Common spoken grammar patterns.
+
+C. Listening assessment:
+- Different speaking speeds.
+- American and British accents.
+- Everyday conversations.
+- Workplace discussions.
+- Technical conversations.
+
+D. Speaking assessment:
+- Self-introduction.
+- Describing professional experience.
+- Describing a construction project.
+- Explaining a technical problem.
+- Giving opinions.
+- Answering unexpected questions.
+- Participating in a simulated meeting.
+
+E. Pronunciation assessment:
+- Word stress.
+- Sentence stress.
+- Intonation.
+- Connected speech.
+- Difficult consonants and vowels.
+- Word endings.
+- Clarity and intelligibility.
+
+Generate an initial CEFR profile with separate scores for speaking, listening, vocabulary, grammar, and pronunciation.
+
+Do not assign an IELTS score without a valid assessment methodology. Clearly distinguish an estimated learning score from an official IELTS result.
+
+Use assessment results to create a personalized learning plan.
+
+Allow the learner to repeat the assessment every 30 days and compare results.
+
+# 4. MAIN APPLICATION MODULES
+
+Create six main modules.
+
+## MODULE A: AI SPEAKING COACH
+
+This is the most important module.
+
+Create a realistic voice-based AI conversation interface.
+
+The learner must be able to speak naturally using the phone microphone, without having to type messages.
+
+Features:
+
+1. Real-time or turn-based voice conversation.
+2. AI responses using natural English.
+3. Voice playback of AI responses.
+4. Conversation history.
+5. Adjustable speaking speed.
+6. Adjustable conversation difficulty.
+7. Ability to repeat the last sentence.
+8. Ability to display the written transcript.
+9. Ability to request a translation into Persian.
+10. Ability to ask the AI to explain an unfamiliar expression.
+
+The AI tutor should behave like a professional, patient English-speaking coach.
+
+Conversation rules:
+
+- Speak primarily in English.
+- Do not translate everything into Persian.
+- Use Persian only when the learner explicitly requests clarification or when a short explanation is necessary.
+- Avoid interrupting the learner unnecessarily.
+- Allow sufficient time for thinking and responding.
+- Encourage longer, more natural answers.
+- Ask relevant follow-up questions.
+- Introduce new vocabulary naturally.
+- Reuse previously learned vocabulary in conversations.
+- Gradually increase complexity.
+- Avoid robotic textbook conversations.
+- Use natural contemporary English.
+
+### Intelligent error correction
+
+Do not interrupt every time the learner makes a mistake.
+
+Use two correction modes:
+
+1. Fluency mode:
+   Let the learner complete the sentence or thought. At the end, identify the most important mistakes.
+
+2. Accuracy mode:
+   Correct important errors immediately when appropriate.
+
+For each important mistake, display:
+
+- What the learner said.
+- The corrected sentence.
+- A more natural native-like alternative.
+- A short explanation.
+- A Persian translation if requested.
+
+Distinguish between:
+- Grammatically incorrect sentences.
+- Grammatically acceptable but unnatural sentences.
+- Correct and natural expressions.
+
+Never falsely label acceptable spoken English as incorrect merely because a different expression is more formal.
+
+### Conversation scoring
+
+After each session, generate a report covering:
+
+- Fluency.
+- Vocabulary range.
+- Grammatical accuracy.
+- Sentence complexity.
+- Pronunciation intelligibility.
+- Hesitation and excessive pauses.
+- Ability to respond spontaneously.
+- Use of previously learned vocabulary.
+
+Provide three to five specific improvement recommendations.
+
+Keep a historical record of performance.
+
+## MODULE B: VOCABULARY BUILDER
+
+Create an intelligent vocabulary-learning system.
+
+The application should initially contain at least 5,000 carefully selected English vocabulary entries, with the architecture capable of expanding to 15,000 or more.
+
+Organize vocabulary by:
+
+- CEFR level.
+- Frequency of usage.
+- Topic.
+- Word type.
+- Difficulty.
+- General or professional English.
+- Active or passive knowledge.
+
+Every vocabulary record must contain:
+
+1. English word or expression.
+2. IPA pronunciation.
+3. Audio pronunciation.
+4. British pronunciation where available.
+5. American pronunciation where available.
+6. Persian meaning.
+7. English definition.
+8. One or more natural example sentences.
+9. Persian translation of examples.
+10. Common collocations.
+11. Synonyms.
+12. Antonyms where appropriate.
+13. Related words and word families.
+14. Common mistakes.
+15. Register: formal, informal, neutral or technical.
+16. CEFR level.
+17. Topic classification.
+18. Source and licensing information where applicable.
+
+Prioritize vocabulary that is useful in real communication rather than obscure academic words.
+
+### Vocabulary learning methods
+
+Implement:
+
+- Flashcards.
+- English-to-Persian recall.
+- Persian-to-English recall.
+- Fill-in-the-blank exercises.
+- Listening and identifying words.
+- Speaking with target words.
+- Sentence construction.
+- Synonym selection.
+- Contextual exercises.
+
+The learner must be able to mark a word as:
+
+- Completely new.
+- Difficult.
+- Partially known.
+- Known.
+- Easily recalled.
+
+However, self-assessment must not be the only basis for determining mastery. Use actual recall performance.
+
+### Active vocabulary training
+
+For every newly learned word, ask the learner to create an original sentence.
+
+Periodically require the learner to use the word in a spoken response.
+
+If the learner repeatedly recognizes a word but cannot produce it spontaneously, classify it as passive vocabulary and prioritize productive exercises.
+
+## MODULE C: SMART VOCABULARY REVISION
+
+Implement a scientifically grounded spaced-repetition system.
+
+Use an FSRS-compatible scheduling algorithm or another well-documented spaced-repetition algorithm.
+
+Do not rely on arbitrary fixed review intervals.
+
+The algorithm should consider:
+
+- Previous performance.
+- Time since last review.
+- Recall difficulty.
+- Forgetting probability.
+- Number of successful and unsuccessful recalls.
+- Response time.
+
+Provide daily revision sessions.
+
+Example initial schedule, subject to algorithmic adjustment:
+
+- First exposure.
+- Short-term recall.
+- Next-day revision.
+- Several-day revision.
+- Weekly revision.
+- Long-term revision.
+
+The learner should be able to revise all difficult words in a dedicated session.
+
+Important requirements:
+
+- Never repeatedly show only easy words.
+- Prioritize overdue and frequently forgotten vocabulary.
+- Mix old and new vocabulary.
+- Test recognition and active production separately.
+- Include words from previous conversation sessions.
+- Generate short speaking challenges using recently learned vocabulary.
+
+Provide a daily review workload that is realistic and adjustable.
+
+## MODULE D: CIVIL ENGINEERING & CONSTRUCTION ENGLISH
+
+This is a major specialized module.
+
+Design it for an experienced civil engineer working as a construction supervision manager, resident engineer, site supervision manager, or project engineer in an international construction company.
+
+The vocabulary and exercises must reflect actual professional communication, not just engineering textbook definitions.
+
+Divide this module into the following sections:
+
+### D1. Construction site vocabulary
+
+- Excavation.
+- Earthworks.
+- Backfilling.
+- Compaction.
+- Dewatering.
+- Shoring.
+- Scaffolding.
+- Formwork.
+- Reinforcement.
+- Concrete pouring.
+- Concrete curing.
+- Waterproofing.
+- Structural works.
+- Finishing works.
+- Mechanical and electrical works.
+- Equipment and machinery.
+
+### D2. Concrete and structural engineering
+
+- Reinforced concrete.
+- Reinforcement detailing.
+- Rebar spacing.
+- Concrete cover.
+- Slump test.
+- Compressive strength.
+- Concrete sampling.
+- Concrete cube testing.
+- Honeycombing.
+- Cold joints.
+- Construction joints.
+- Expansion joints.
+- Anchor bolts.
+- Foundation settlement.
+- Structural integrity.
+
+### D3. Geotechnical and foundation engineering
+
+- Soil investigation.
+- Borehole.
+- Soil classification.
+- Groundwater table.
+- Bearing capacity.
+- Settlement.
+- Micropiles.
+- Piles.
+- Pile integrity testing.
+- Plate load test.
+- Soil compaction testing.
+- Excavation stability.
+- Retaining structures.
+
+### D4. Water and wastewater treatment
+
+Include specialized terminology related to:
+
+- Wastewater treatment plants.
+- Water treatment plants.
+- Clarifiers.
+- Sedimentation tanks.
+- Aeration tanks.
+- Sludge treatment.
+- Biological treatment.
+- Activated sludge process.
+- Diffusers.
+- Pumps.
+- Pipelines.
+- Hydraulic structures.
+- Process equipment.
+- Mechanical installation.
+- Commissioning.
+
+### D5. Project management and supervision
+
+- Project schedule.
+- Baseline programme.
+- Critical path.
+- Progress report.
+- Physical progress.
+- Delay analysis.
+- Variation order.
+- Change order.
+- Claims.
+- Contractual obligations.
+- Notice of delay.
+- Non-conformance report.
+- Inspection request.
+- Method statement.
+- Material submittal.
+- Technical submittal.
+- Shop drawings.
+- As-built drawings.
+- Request for information.
+- Work inspection.
+- Quality assurance.
+- Quality control.
+
+Include appropriate terminology used in FIDIC-based contracts.
+
+Distinguish British and American terminology when they differ.
+
+### D6. Construction safety
+
+Include:
+
+- Working at height.
+- Confined spaces.
+- Excavation safety.
+- Personal protective equipment.
+- Crane operations.
+- Lifting plans.
+- Fall protection.
+- Safety inspection.
+- Toolbox talks.
+- Hazard identification.
+- Risk assessment.
+- Near-miss reporting.
+
+### D7. Professional meetings and communication
+
+Teach realistic expressions for:
+
+- Chairing meetings.
+- Giving technical opinions.
+- Requesting clarification.
+- Challenging an incorrect statement professionally.
+- Reporting delays.
+- Discussing quality problems.
+- Negotiating corrective actions.
+- Assigning responsibilities.
+- Agreeing on deadlines.
+- Following up on outstanding issues.
+- Escalating unresolved problems.
+
+Include both formal and natural conversational alternatives.
+
+## MODULE E: REALISTIC ROLE-PLAY SIMULATIONS
+
+Create an extensive collection of realistic interactive scenarios.
+
+The AI must assume different professional roles, including:
+
+- International project manager.
+- Construction manager.
+- Site engineer.
+- Contractor representative.
+- Consultant's resident engineer.
+- QA/QC manager.
+- HSE manager.
+- Client representative.
+- Procurement manager.
+- Technical director.
+
+Example scenarios:
+
+1. Attending a weekly progress meeting.
+2. Discussing delays with a contractor.
+3. Inspecting reinforcement before concrete pouring.
+4. Discussing poor workmanship.
+5. Rejecting non-compliant construction work.
+6. Reviewing a contractor's method statement.
+7. Discussing a variation order.
+8. Negotiating a revised construction schedule.
+9. Explaining a technical problem to a project manager.
+10. Discussing groundwater problems during excavation.
+11. Reviewing micropile installation.
+12. Discussing concrete test results.
+13. Coordinating civil, mechanical and electrical works.
+14. Conducting a site safety inspection.
+15. Explaining a wastewater treatment process.
+16. Participating in a job interview.
+17. Introducing professional experience to an international employer.
+18. Discussing salary, responsibilities and employment conditions.
+19. Making a technical presentation.
+20. Handling a disagreement during a site meeting.
+
+Each role-play must have:
+
+- A clear objective.
+- A realistic background.
+- A professional character for the AI.
+- A defined difficulty level.
+- Interactive voice communication.
+- Different possible responses from the AI.
+- A final performance assessment.
+- Vocabulary extracted from the conversation.
+- A list of useful professional expressions.
+
+The AI must not make every scenario easy. Introduce unexpected questions, disagreements, technical complications and time pressure gradually.
+
+## MODULE F: LISTENING AND PRONUNCIATION
+
+Create a dedicated listening and pronunciation environment.
+
+Listening exercises should include:
+
+- Everyday English.
+- Workplace English.
+- Technical discussions.
+- Meetings.
+- Telephone conversations.
+- Job interviews.
+- Professional presentations.
+
+Use a mixture of British, American and international English accents.
+
+For each listening exercise:
+
+1. Play the audio without displaying the transcript.
+2. Ask comprehension questions.
+3. Allow the learner to replay the audio.
+4. Display the transcript after the exercise.
+5. Explain difficult expressions.
+6. Extract new vocabulary.
+7. Allow sentence-by-sentence playback.
+
+### Shadowing practice
+
+Implement a shadowing feature.
+
+The learner listens to a sentence and repeats it.
+
+Provide:
+
+- Normal speed.
+- 0.8x speed.
+- 0.65x speed.
+- Sentence repetition.
+- Voice recording.
+- Original and learner audio playback.
+- Transcript comparison.
+
+Do not claim accurate phonetic scoring unless an appropriate speech-analysis model is actually implemented.
+
+Distinguish speech recognition accuracy from pronunciation quality.
+
+# 5. DAILY LEARNING PROGRAM
+
+Create a flexible daily study system.
+
+Default recommended session: 60 minutes.
+
+Suggested structure:
+
+- 15 minutes: Vocabulary learning.
+- 10 minutes: Spaced repetition.
+- 20 minutes: Speaking practice.
+- 10 minutes: Listening and shadowing.
+- 5 minutes: Review and progress report.
+
+Allow 30-minute, 60-minute and 90-minute study plans.
+
+The system must adapt daily workload to the learner's available time.
+
+Create a weekly progress report.
+
+The application should measure actual improvement, not just the number of lessons completed.
+
+# 6. OFFLINE-FIRST ARCHITECTURE
+
+Offline operation is a fundamental requirement, not an optional feature.
+
+The application must remain useful when the phone has no internet connection for several weeks or months.
+
+Implement a local-first architecture.
+
+### Offline features that must work
+
+- Vocabulary browsing.
+- Vocabulary learning.
+- Flashcards.
+- Spaced repetition.
+- Search.
+- Persian translations.
+- Grammar lessons.
+- Downloaded listening exercises.
+- Downloaded audio pronunciation.
+- Recorded speaking practice.
+- Previously downloaded role-play scenarios.
+- Scenario-based conversation with predefined branching responses.
+- Local speech recognition where a compatible model is installed.
+- Local text-to-speech where an offline voice is available.
+- Progress tracking.
+- Statistics.
+- Local backup and restore.
+
+Do not make the app dependent on Gemini API availability.
+
+### Online-only enhancements
+
+When internet is available, provide:
+
+- Advanced AI conversation.
+- Dynamic role-play generation.
+- Detailed grammar correction.
+- Advanced speaking analysis.
+- Generation of new vocabulary exercises.
+- Generation of personalized lessons.
+- Downloading new content packages.
+- Synchronization and backup if enabled by the learner.
+
+When the connection is lost, switch automatically to offline mode.
+
+Never show a blank screen or disable the entire learning module because an API is unavailable.
+
+Clearly indicate whether the user is in online or offline mode.
+
+### Local database
+
+Use Room Database with SQLite.
+
+Store:
+
+- Vocabulary.
+- Learning progress.
+- Review schedules.
+- Conversation history.
+- Speaking recordings.
+- Transcriptions.
+- User settings.
+- Downloaded lessons.
+- Learning statistics.
+
+All essential learning records must persist after closing and restarting the application.
+
+Use database migrations to protect existing user data when the app is updated.
+
+### Data backup
+
+Provide:
+
+- Export of personal learning data.
+- Import and restore.
+- JSON or another documented portable format.
+- Backup of vocabulary and learning progress.
+- Optional inclusion of recordings.
+
+Do not require an account or cloud connection for the basic application.
+
+# 7. FREE AND LEGITIMATE LEARNING RESOURCES
+
+Use reputable sources and only redistribute content when the applicable license permits it.
+
+Integrate the following resources:
+
+### A. British Council LearnEnglish
+https://learnenglish.britishcouncil.org/
+
+Use as a reference for general English learning, grammar, listening and workplace communication.
+
+Do not scrape or redistribute copyrighted content without permission.
+
+### B. Tatoeba
+https://tatoeba.org/en/downloads
+
+Download appropriate English sentence data and translations.
+
+Respect CC BY 2.0 FR attribution requirements.
+
+Prefer CC0 sentence collections where suitable.
+
+Do not assume that every audio file has permission for redistribution.
+
+### C. Mozilla Common Voice
+https://commonvoice.mozilla.org/en/datasets
+
+Use appropriately licensed speech datasets for speech-related development, pronunciation practice and ASR evaluation.
+
+### D. USACE official publications
+https://www.publications.usace.army.mil/
+
+Use relevant engineering publications as technical reference material.
+
+Check the copyright and reuse status of each document before bundling its content.
+
+### E. OSHA Construction
+https://www.osha.gov/construction
+
+Use official construction safety terminology and relevant public resources.
+
+### F. Project Gutenberg
+https://www.gutenberg.org/
+
+Use appropriately licensed or public-domain English texts for additional reading and vocabulary extraction.
+
+### Important resource management requirements
+
+Create a dedicated resource manager.
+
+It must support:
+
+- Downloading content packages.
+- Checking file integrity.
+- Displaying package sizes.
+- Showing download progress.
+- Pausing and resuming downloads where possible.
+- Verifying licenses.
+- Recording source attribution.
+- Deleting unwanted packages.
+- Checking available storage.
+- Updating content packages when online.
+
+Never download an entire large dataset automatically.
+
+Allow the learner to select specific content packages.
+
+Create a basic offline vocabulary package that can be installed with the application.
+
+# 8. SPEECH TECHNOLOGY
+
+Implement an interchangeable speech-processing architecture.
+
+Evaluate and select suitable solutions for:
+
+A. Speech-to-text:
+- Vosk.
+- Whisper.cpp or an appropriately licensed optimized Whisper implementation.
+- Google AI Edge on-device speech models.
+- Other suitable open-source offline ASR systems.
+
+B. Text-to-speech:
+- Android TextToSpeech with verified offline voice availability.
+- Piper or another compatible offline TTS engine.
+- Suitable open-source alternatives.
+
+C. AI conversation:
+- Gemini API in online mode.
+- An optional compact on-device language model in offline mode, if hardware and licensing permit.
+
+Do not assume that Android's default speech recognition or TTS automatically works offline on every device.
+
+Check actual availability of offline language models and voices.
+
+Allow the learner to download compatible English voice and speech models.
+
+Before downloading, show:
+- Model name.
+- Version.
+- File size.
+- Supported language and accent.
+- License.
+- Device compatibility.
+
+Provide a simple offline conversation mode even if no local LLM is installed.
+
+# 9. AI PERSONALIZATION AND MEMORY
+
+The AI tutor must maintain a structured learning profile.
+
+Track:
+
+- Frequently forgotten vocabulary.
+- Repeated grammatical errors.
+- Difficult pronunciation patterns.
+- Weak conversation topics.
+- Professional vocabulary mastery.
+- Conversation fluency.
+- Listening comprehension.
+- Learning preferences.
+
+Use this information to personalize future lessons.
+
+For example:
+
+If the learner repeatedly struggles with construction progress meetings, generate additional practice in that area.
+
+If the learner knows a word but repeatedly fails to use it in speaking, create productive vocabulary exercises.
+
+If the learner frequently makes mistakes with past tense, introduce targeted conversation tasks that naturally require past-tense usage.
+
+Do not repeatedly teach already-mastered material without a specific pedagogical reason.
+
+# 10. USER INTERFACE AND EXPERIENCE
+
+Design a professional, modern and elegant Android application.
+
+Use:
+
+- Kotlin.
+- Jetpack Compose.
+- Material 3.
+- MVVM architecture.
+- Room Database.
+- Coroutines and Flow.
+- Navigation Compose.
+
+The default interface language should be Persian, with proper RTL layout.
+
+English learning content must be displayed in correct LTR formatting.
+
+Allow switching the interface to English.
+
+Use clear typography and avoid overcrowded screens.
+
+The main dashboard should display:
+
+- Today's study progress.
+- Vocabulary due for review.
+- New words learned.
+- Speaking minutes.
+- Current CEFR estimates.
+- Weekly learning streak.
+- Offline/online status.
+- Quick access to speaking practice.
+
+The speaking screen should have a prominent microphone button and a clean, distraction-free interface.
+
+Use a dark mode and light mode.
+
+Make the application comfortable for prolonged use.
+
+# 11. PROGRESS TRACKING AND ANALYTICS
+
+Create a detailed progress dashboard.
+
+Track the following independently:
+
+- Total vocabulary.
+- Active vocabulary.
+- Passive vocabulary.
+- Vocabulary retention rate.
+- Vocabulary recall speed.
+- Speaking duration.
+- Average speaking response length.
+- Fluency.
+- Pronunciation intelligibility.
+- Grammar accuracy.
+- Listening comprehension.
+- Professional vocabulary mastery.
+- Completed role-play scenarios.
+
+Provide weekly and monthly charts.
+
+Show progress against the initial assessment.
+
+Identify the three weakest skills and recommend specific activities.
+
+Avoid misleading scores based solely on lesson completion.
+
+# 12. TECHNICAL QUALITY AND SECURITY
+
+The application must:
+
+- Work on modern Android phones.
+- Support Android 10 and newer where dependencies permit.
+- Use efficient background processing.
+- Avoid excessive battery consumption.
+- Handle interruptions and application restarts safely.
+- Request microphone permission only when needed.
+- Keep personal recordings private by default.
+- Never upload voice recordings without explicit consent.
+- Never embed secret API keys in the APK.
+- Use secure authentication and API access when required.
+- Handle network failures gracefully.
+- Include proper error messages.
+- Respect the licenses of all integrated models and datasets.
+
+Use modular, maintainable code.
+
+Do not create a single enormous source file.
+
+Keep business logic, UI, database, speech processing and AI services separate.
+
+# 13. DEVELOPMENT AND IMPLEMENTATION STRATEGY
+
+Do not attempt to create a superficial prototype that only displays screens.
+
+Implement working features with persistent data and real functionality.
+
+Build in the following phases:
+
+PHASE 1:
+- Application foundation.
+- Navigation.
+- Dashboard.
+- Local database.
+- User profile.
+- Initial assessment.
+
+PHASE 2:
+- Vocabulary database.
+- Flashcards.
+- Search.
+- Spaced repetition.
+- Daily learning plan.
+
+PHASE 3:
+- Speaking interface.
+- Audio recording.
+- Transcription.
+- Conversation history.
+- AI integration.
+
+PHASE 4:
+- Civil engineering vocabulary.
+- Technical learning materials.
+- Professional role-play scenarios.
+- Meeting simulations.
+
+PHASE 5:
+- Offline speech recognition.
+- Offline TTS.
+- Download manager.
+- Offline lesson engine.
+
+PHASE 6:
+- Analytics.
+- Backup and restore.
+- Performance optimization.
+- Comprehensive testing.
+
+At the end of each phase:
+
+1. Build the application.
+2. Run available automated tests.
+3. Fix compilation errors.
+4. Test all implemented features.
+5. Check database persistence.
+6. Verify offline behavior.
+7. Ensure existing features are not broken.
+
+Do not remove existing functionality when implementing new features.
+
+If a particular dependency or model cannot be integrated in the AI Studio environment, implement a clean abstraction and a working alternative rather than generating fake functionality.
+
+Maintain a clear list of implemented, partially implemented and pending features.
+
+# 14. ACCEPTANCE TESTS
+
+The project is not complete until the following tests pass:
+
+TEST 1:
+Install and launch the app for the first time.
+
+TEST 2:
+Complete the initial assessment and save the results.
+
+TEST 3:
+Learn 20 vocabulary items and restart the application. Verify that all data remains available.
+
+TEST 4:
+Complete a spaced-repetition session and verify that review scheduling changes appropriately.
+
+TEST 5:
+Download an offline lesson and its associated audio files.
+
+TEST 6:
+Enable airplane mode and verify that the downloaded lesson plays correctly.
+
+TEST 7:
+Use offline vocabulary search, flashcards and review.
+
+TEST 8:
+Record a spoken response and verify that the recording is saved locally.
+
+TEST 9:
+Run offline speech recognition if a compatible model is installed.
+
+TEST 10:
+Complete a predefined construction-site role-play without internet.
+
+TEST 11:
+Restore internet connectivity and verify that online AI conversation becomes available.
+
+TEST 12:
+Export and restore the learning database without losing vocabulary or progress.
+
+TEST 13:
+Verify that the Persian interface, RTL layout and English LTR text render correctly.
+
+TEST 14:
+Verify that API credentials are not exposed in the APK.
+
+# 15. FINAL PRODUCT EXPECTATIONS
+
+The final product must be a genuinely useful personal English-learning application, not a simple dictionary or chatbot.
+
+Its strongest features must be:
+
+1. Continuous voice-based speaking practice.
+2. Intelligent vocabulary learning and long-term retention.
+3. Realistic professional construction and engineering conversations.
+4. A genuinely functional offline learning environment.
+5. Personalized feedback based on measurable learning progress.
+
+The application should help the learner regain the confidence to speak English spontaneously, communicate naturally in everyday situations, and function professionally in an international construction environment.
+
+Begin by creating the complete project structure and implementing Phase 1.
+
+After completing Phase 1, continue through the remaining phases systematically, preserving and testing existing functionality.
+
+Do not claim a feature is complete unless its actual implementation has been tested.
+
+**Project name: English Pro**
+
+**Application description: Personal English & Civil Engineering Coach**
+
+**Primary learning language: English**
+
+**Secondary interface and support language: Persian (Farsi)**
+
+**Target proficiency: Strong B2 progressing toward C1**
+
+**Primary learning focus: Speaking, active vocabulary and professional civil engineering communication**
+
+**Mandatory architectural principle: Offline-first, with optional advanced online AI capabilities.**
