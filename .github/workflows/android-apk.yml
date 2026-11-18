@@ -26,12 +26,19 @@ jobs:
           distribution: temurin
           java-version: '21'
 
+      - name: Accept Android SDK licenses
+        run: |
+          if [ -n "${ANDROID_HOME:-}" ] && [ -x "${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager" ]; then
+            yes | "${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null 2>&1 || true
+          fi
+
       - name: Prepare signing keystore for debug APK
         run: |
           if [ ! -f debug.keystore ]; then
             if [ -f debug.keystore.base64 ]; then
-              base64 -d debug.keystore.base64 > debug.keystore
-            else
+              base64 -d debug.keystore.base64 > debug.keystore || rm -f debug.keystore
+            fi
+            if [ ! -f debug.keystore ]; then
               keytool -genkeypair -v \
                 -keystore debug.keystore \
                 -storepass android \
@@ -68,15 +75,19 @@ jobs:
           path: release-apk/English-Pro-V1.0.apk
           retention-days: 90
 
-      - name: Build Signed Release APK (optional when keystore secrets are configured)
-        if: ${{ secrets.RELEASE_KEYSTORE_BASE64 != '' && secrets.STORE_PASSWORD != '' && secrets.KEY_PASSWORD != '' }}
+      - name: Build Signed Release APK (when signing secrets exist)
         env:
+          RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
           STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
-          echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > my-upload-key.jks
-          gradle :app:assembleRelease --no-daemon
-          cp app/build/outputs/apk/release/app-release.apk release-apk/English-Pro-V1.0-release.apk
+          if [ -n "$RELEASE_KEYSTORE_BASE64" ] && [ -n "$STORE_PASSWORD" ] && [ -n "$KEY_PASSWORD" ]; then
+            echo "$RELEASE_KEYSTORE_BASE64" | base64 -d > my-upload-key.jks
+            gradle :app:assembleRelease --no-daemon
+            cp app/build/outputs/apk/release/app-release.apk release-apk/English-Pro-V1.0-release.apk
+          else
+            echo "Release signing secrets not set; skipping release APK (debug APK is ready)."
+          fi
 
       - name: Publish APK to GitHub Releases
         if: github.event_name != 'pull_request'
